@@ -3,6 +3,11 @@ const express = require('express');
 const app = express();
 
 app.get('/', (req, res) => {
+  // res.json({ endpoint: '/' })
+  res.send("<h1>Chinquiz App</h1>")
+})
+
+app.get('/api', (req, res) => {
   const chinquiz = [
     {
       question:
