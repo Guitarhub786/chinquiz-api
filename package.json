@@ -4,8 +4,7 @@
   "description": "Chinquiz Quiz App Api",
   "main": "server.js",
   "scripts": {
-    "now-start": "node index.js",
-    "start": "nodemon index.js"
+    "start": "node ."
   },
   "author": "Hak Jenkins",
   "license": "MIT",
