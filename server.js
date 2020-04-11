@@ -2,7 +2,7 @@ const express = require('express');
 
 const app = express();
 
-app.get('/api/chinquiz', (req, res) => {
+app.get('/', (req, res) => {
   const chinquiz = [
     {
       question:
